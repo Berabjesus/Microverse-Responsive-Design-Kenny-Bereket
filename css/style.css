@@ -1,3 +1,67 @@
+/* General Rule */
+
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.border-temp {
+  border: 2px dashed black;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+   display: flex;
+   flex-direction: column;
+}
+
+/* Nav bars rules start here */
+
+.brand {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 105px;
+  height: 80px;
+  background-color: red;
+}
+
+.nav--black {
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 30px;
+  background-color: rgb(27, 25, 25);
+}
+
+.nav--black__left-container {
+  margin: 0 auto 0 0;
+}
+
+.nav--black__right-container {
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .nav--black {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .nav--black {
+    margin-left: 105px;
+  }
+  
+  .brand {
+    display: block;
+  }
+}
+
