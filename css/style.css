@@ -77,12 +77,10 @@ body {
 
 }
 .nav--yellow__paragraph{
+  clear:left;
   margin-top:0;
 }
-.row-1{
-  display:grid;
-  grid-template-columns: 3fr, 1fr;
-}
+
 
 @media screen and (max-width: 1133px) {
   .nav--grey__right-container__item:not(:first-child) {
@@ -131,4 +129,16 @@ body {
   .nav--grey_left-container {
     display: none;
   }
+}
+
+.row-1{
+  border: 2px solid red;
+  display:grid;
+  grid-template-columns: 3fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  height: 60vh;
+  width:auto;
+  grid-template-areas:
+  "row-1__element1 row-1__element1 row-1__element1 row-1__element2"
+  "row-1__element1 row-1__element1 row-1__element1 row-1__element3";
 }
