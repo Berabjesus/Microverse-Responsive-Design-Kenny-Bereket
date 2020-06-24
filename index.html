@@ -102,14 +102,15 @@
       <div class="row-4__element5 border-temp-child"></div>
       <div class="row-4__element6 border-temp-child"></div>
       <div class="row-4__element7 border-temp-child"></div>
-      <div class="row-4__element8 border-temp-child"></div>
+      <div class="row-4__element8 border-temp-child"><p class=""></p>This is row 4 last element.</div>
     </section>
-    
+
     <section class="row row-5">
-      <div class="row-5__nav-bar">
+      <!-- <div class="row-5__nav-bar">
         <h1 class="row-5__nav-bar__title"></h1>
         <a href="" class="row-5__nav-bar__link"></a>
-      </div>
+      </div> -->
+      <h1 class="row-5__header"><a href="#" class="row-5__header__link"></a>Latest News Row 5</h1>
       <div class="row-5__grid-container">
         <div class="row-5__element1"></div>
         <div class="row-5__element2"></div>
@@ -124,40 +125,41 @@
   </main>
   <footer>
     <div class="footer__nav-1">
-      <div class="footer__nav-1__container-1">
-        <a href="" class="footer__nav-1__social-icon1"></a>
-        <a href="" class="footer__nav-1__social-icon2"></a>
+      <div class="footer__nav-1__container-1 border-temp">
+        <a href="" class="footer__nav-1__social-icon1">123</a>
+        <a href="" class="footer__nav-1__social-icon2">321</a>
         <a href="" class="footer__nav-1__social-icon3"></a>
-        <a href="" class="footer__nav-1__social-icon4"></a>
-        <a href="" class="footer__nav-1__social-icon5"></a>
-        <a href="" class="footer__nav-1__social-icon6"></a>
-        <a href="" class="footer__nav-1__social-icon7"></a>
+        <a href="" class="footer__nav-1__social-icon4">123</a>
+        <a href="" class="footer__nav-1__social-icon5">32</a>
+        <a href="" class="footer__nav-1__social-icon6">3</a>
+        <a href="" class="footer__nav-1__social-icon7">151</a>
       </div>
-      <div class="footer__nav-1__container-2">
-        <a href="" class="footer__nav-1__element"></a>
-        <a href="" class="footer__nav-1__element"></a>
-        <a href="" class="footer__nav-1__element"></a>
-        <a href="" class="footer__nav-1__element"></a>
+      <div class="footer__nav-1__container-2 border-temp">
+        <a href="" class="footer__nav-1__element">231</a>
+        <a href="" class="footer__nav-1__element">31</a>
+        <a href="" class="footer__nav-1__element">51</a>
+        <a href="" class="footer__nav-1__element">12</a>
       </div>
     </div>
     <div class="footer__nav-2">
-      <a href="" class="footer_nav-2__link-1"></a>
-      <p class="footer_nav-2__paragraph"></p>
-      <a href="" class="footer_nav-2__link-2"></a>
+      <a href="" class="footer_nav-2__link-1 border-temp">Lorem ipsum dolor.</a>
+      <p class="footer_nav-2__paragraph border-temp">Lorem ipsum dolor sit.</p>
+      <a href="" class="footer_nav-2__link-2 border-temp">Lorem ipsum dolor sit amet.</a>
     </div>
   </footer>
   <script>
     window.addEventListener("scroll", bringmenu);
 
-  function bringmenu() {
-    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-        document.getElementById("black-nav").style.display="none";
+    function bringmenu() {
+      if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+        document.getElementById("black-nav").style.display = "none";
         document.getElementById("brand").style.height = "55px";
-    } else {
-        document.getElementById("black-nav").style.display="flex";
+      } else {
+        document.getElementById("black-nav").style.display = "flex";
         document.getElementById("brand").style.height = "55px";
+      }
     }
-}
   </script>
 </body>
+
 </html>
