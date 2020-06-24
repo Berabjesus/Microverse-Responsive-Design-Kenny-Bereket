@@ -18,8 +18,8 @@ body {
 }
 
 .flex-column {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Nav bars rules start here */
@@ -65,24 +65,25 @@ body {
   align-items: center;
 }
 
-.nav--grey__right-container__item > img{
+.nav--grey__right-container__item>img {
   width: 30px;
   height: auto;
 }
 
 @media screen and (max-width: 1133px) {
-  .nav--grey__right-container__item:not(:first-child){
+  .nav--grey__right-container__item:not(:first-child) {
     display: none;
   }
 }
 
 @media screen and (max-width: 1023px) {
+
   .nav--black,
   .nav--grey {
     margin-left: 106px;
     width: calc(100% - 106px);
   }
-  
+
   .brand {
     display: block;
   }
