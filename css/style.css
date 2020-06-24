@@ -74,6 +74,14 @@ body {
   height: 32px;
   width: 100%;
   text-align:left;
+
+}
+.nav--yellow__paragraph{
+  margin-top:0;
+}
+.row-1{
+  display:grid;
+  grid-template-columns: 3fr, 1fr;
 }
 
 @media screen and (max-width: 1133px) {
@@ -83,7 +91,7 @@ body {
 
   .nav--yellow__paragraph{
     text-indent: 15%;
-    margin: 0 auto 0 auto;
+    margin-top: 0;
   }
 
 }
@@ -107,10 +115,14 @@ body {
   }
   .nav--yellow{
     height:auto;
+
+
+  }
+  .nav--yellow__paragraph{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
-
+    margin-top:0;
   }
   .brand {
     height: 55px;
