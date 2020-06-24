@@ -1,5 +1,4 @@
 /* General Rule */
-
 * {
   box-sizing: border-box;
 }
@@ -23,7 +22,6 @@ body {
 }
 
 /* Nav bars rules start here */
-
 .brand {
   position: fixed;
   top: 0;
@@ -70,10 +68,24 @@ body {
   height: auto;
 }
 
+.nav--yellow {
+
+  background-color: yellow;
+  height: 32px;
+  width: 100%;
+  text-align:left;
+}
+
 @media screen and (max-width: 1133px) {
   .nav--grey__right-container__item:not(:first-child) {
     display: none;
   }
+
+  .nav--yellow__paragraph{
+    text-indent: 15%;
+    margin: 0 auto 0 auto;
+  }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -93,7 +105,13 @@ body {
   .nav--black {
     display: none;
   }
+  .nav--yellow{
+    height:auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
 
+  }
   .brand {
     height: 55px;
   }
