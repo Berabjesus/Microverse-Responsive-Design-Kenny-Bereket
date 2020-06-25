@@ -849,3 +849,42 @@ footer {
     flex-direction: column;
   }
 }
+
+.footer__nav-1__container-1{
+  margin: 0 auto;
+  width:33vw;
+  justify-content: center;
+
+
+}
+
+.footer__nav-1__element {
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing:1px;
+  line-height: 24px;
+  text-transform:capitalize;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer__nav-1__social-icon img{
+
+  height: 3rem;
+  width: 3rem;
+  margin: 0 5px;
+
+}
+
+.footer__nav-2{
+  margin:0 auto;
+  height:20vh;
+  width:auto;
+}
+
+.footer_nav-2__logo{
+  color:white;
+  height: 3rem;
+  width: 5rem;
+}
