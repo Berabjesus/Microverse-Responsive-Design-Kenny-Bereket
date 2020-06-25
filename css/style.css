@@ -50,7 +50,7 @@ header {
   display: none;
   width: 110px;
   height: 80px;
-  background-color: red;
+  background: url("../tnw.svg") no-repeat center, linear-gradient(to bottom right, #c09,#f42);
 }
 
 .nav--black {
@@ -91,11 +91,12 @@ header {
   height: 55px;
   line-height: 55px;
   text-align: center;
-  background-color: #fefefe;
+  background: linear-gradient(white, #F8F8F8);
 }
 
 .nav--grey_left-container {
   float: left;
+  width: auto;
 }
 
 .nav--grey_left-container__item {
@@ -161,7 +162,7 @@ header {
 }
 
 .nav--yellow {
-  background-color: yellow;
+  background-color: #FFDD33;
   height: 32px;
   line-height: 32px;
   width: 100%;
@@ -174,9 +175,14 @@ header {
 }
 
 /* Nav bar media query */
+@media screen and (max-width: 1194px) {
+  .nav--grey_left-container__item:last-child {
+    display: none;
+  }
+}
 
-@media screen and (max-width: 1133px) {
-  .nav--grey__right-container__item:not(:first-child) {
+@media screen and (max-width: 1120px) {
+  .grey-right-items:not(:first-child) {
     display: none;
   }
 
@@ -210,7 +216,8 @@ header {
   }
 
   .nav--yellow {
-    height: auto;
+    height: 55px;
+    line-height: 55px;
     overflow-x: hidden;
   }
 
@@ -224,6 +231,7 @@ header {
 
   .brand {
     height: 55px;
+    background: url("../tnw.svg") no-repeat center / 50%, linear-gradient(to bottom right, #c09,#f42) no-repeat center center / cover;
   }
 
   .nav--grey_left-container {
@@ -233,6 +241,7 @@ header {
 
 .main-container {
   margin: 115px 0 0 0;
+  padding: 0 5px;
 }
 
 .row:not(:first-child) {
@@ -244,6 +253,12 @@ header {
   .row:not(:first-child) {
     max-width: 95%;
     margin: 100px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    margin: 111px 0 0 0;
   }
 }
 
@@ -279,11 +294,8 @@ header {
 }
 
 /* Row 1 media query */
-@media screen and (max-width: 767px) {
-  .main-container {
-    margin: 105px 0 0 0;
-  }
 
+@media screen and (max-width: 767px) {
   .row-1 {
     height: 80vh;
     grid-template: 33.3% 66.7% / 1fr;
