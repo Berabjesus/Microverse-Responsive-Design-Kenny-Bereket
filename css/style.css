@@ -699,6 +699,7 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
+  padding: 0 0.5em 0 0;
 }
 
 .row-4__header {
@@ -727,9 +728,7 @@ header {
 
 .row-4-bg-4 {
   background: linear-gradient(to top, black, white) no-repeat, url("../media/Image/row-4/r4.png") no-repeat center center / cover;
-
 }
-
 
 .row-4__main-image {
   display: flex;
@@ -787,9 +786,15 @@ header {
 
 /* row 4 media queries */
 @media screen and (max-width: 1023px) {
-  .row-4>div {
-    width: 50%;
-    height: 120vh;
+  .row-4__element {
+    /* width: 50%; */
+    height: auto;
+    flex: 1 1 50%;
+  }
+
+  .row-4__main-image {
+    max-width: 100%;
+    height: 55vh;
   }
 }
 
