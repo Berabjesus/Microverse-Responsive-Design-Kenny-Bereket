@@ -385,11 +385,11 @@ header {
   .element1-logo-date {
     display: none;
   }
-  
+
   .element1-article > h2 {
     font-size: 30px;
   }
-  
+
   .element2-1-header, .element2-2-article > h2 {
     font-size: 20px;
   }
@@ -442,6 +442,24 @@ header {
 .row-2__grid-container>div {
   border: 1px solid purple;
   padding: 5px;
+}
+.row-2__element{
+  display:flex;
+  align-items: flex-start;
+  flex-direction:column;
+}
+.row-2__element__image{
+ width:100%;
+ height:auto;
+ align-self:center;
+}
+.row2__title{
+  font-weight:700;
+  color:black;
+}
+.row2__paragraph{
+  color:grey;
+  text-decoration: none;
 }
 
 /* row 2 Media query */
