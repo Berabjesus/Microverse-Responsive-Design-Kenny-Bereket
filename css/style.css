@@ -168,6 +168,7 @@ header {
   width: 100%;
   text-align: left;
   padding: 0 0 0 1rem;
+  box-shadow: 0px 10px 40px rgb(192, 179, 179);
 }
 
 .nav--yellow__paragraph {
@@ -536,12 +537,15 @@ header {
   }
 }
 
+/* Row 3 Rules start here */
+
 .row-3 {
-  height: 50vh;
+  height: auto;
 }
 
 .row-3__nav-bar {
   height: 15%;
+  margin: 0 0 2em 0;
 }
 
 .row-3__nav-bar::after {
@@ -552,10 +556,19 @@ header {
 
 .row-3__nav-bar__title {
   float: left;
+  color: #f42;
+  font-weight: 700;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .row-3__nav-bar__link {
   float: right;
+  text-decoration: none;
+  color: #f42;
+  border-right: 1px #f42 solid;
+  padding: 0 0.5em 0 0.5em;
+  margin: 0.5em 0 0 0;
+  font-size: 20px;
 }
 
 .row-3__grid-container {
@@ -563,11 +576,63 @@ header {
   flex-wrap: wrap;
 }
 
-.row-3__grid-container>div {
+.row-3__element {
+  position: relative;
   width: 25%;
-  padding: 10px;
+  padding: 0 15px 0 0;
 }
 
+.row-3__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.row-3__orange-title {
+  background-color: #f42;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.row-3__price-category {
+  background-color: #ffebe8;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: left;
+  padding: 0 0 1em 6em;
+}
+
+.row-3__category {
+  font-family: sans-serif;
+  color: cadetblue;
+  font-size: 13px;
+}
+
+.row-3-tags {
+  padding: 0 0 1em 1em;
+  background-color: #fffaf8;
+  border-bottom: 0.8px solid gray;
+
+}
+
+.row-3-tags img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.8em 0 0;
+}
+
+.row-3-text {
+  padding: 1em 0 0 1em;
+  background-color: #fffaf8;
+  height: 110px;
+}
+
+.row-3__last-link {
+  text-decoration: none;
+  color: cadetblue;
+}
 /* row 3 media queries */
 @media screen and (max-width: 1023px) {
   .row-3__nav-bar {
@@ -576,6 +641,8 @@ header {
 
   .row-3__nav-bar__link {
     float: unset;
+    border-right: unset;
+    border-left: 1px #f42 solid;
   }
 
   .row-3__nav-bar__title {
@@ -583,18 +650,25 @@ header {
     float: unset;
   }
 
-  .row-3__grid-container>div {
-    width: 33.3%;
+  .row-3__grid-container {
+    height: auto;
+    margin: 1em 0 0 0;
   }
 
-  .row-3__element4 {
+  .row-3__element {
+    width: 33.3%;
+    height: auto;
+  }
+
+  .row-3__element:last-child {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 767px) {
   .row-3 {
-    height: 130vh;
+    height: auto;
   }
 
   .row-3__nav-bar__link {
@@ -606,9 +680,9 @@ header {
     height: 100%;
   }
 
-  .row-3__grid-container>div {
+  .row-3__element {
     width: 100%;
-    height: 33.3%;
+    height: auto;
   }
 }
 
