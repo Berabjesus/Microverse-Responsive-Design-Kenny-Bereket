@@ -633,6 +633,7 @@ header {
   text-decoration: none;
   color: cadetblue;
 }
+
 /* row 3 media queries */
 @media screen and (max-width: 1023px) {
   .row-3__nav-bar {
@@ -712,7 +713,7 @@ header {
 }
 
 .row-4-bg-1 {
-  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.007)) no-repeat, url("../media/Image/row-4/r1.png") no-repeat center center / cover ;
+  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.007)) no-repeat, url("../media/Image/row-4/r1.png") no-repeat center center / cover;
 
 }
 
@@ -739,7 +740,7 @@ header {
 }
 
 .row-4__main-image h4 {
-  color:  white;
+  color: white;
   font-size: 13px;
   margin: 0 0 0.5em 0;
 }
@@ -762,7 +763,7 @@ header {
   padding: 0.2em 0 0 0.5em;
 }
 
-.row-4-subheader > article {
+.row-4-subheader>article {
   width: 80%;
   color: #f42;
   font-family: 'Archivo Black', sans-serif;
@@ -770,7 +771,7 @@ header {
   background-color: #fff4f2;
 }
 
-.row-4-subheader > img {
+.row-4-subheader>img {
   width: 25%;
   height: 15vh;
 }
@@ -813,78 +814,18 @@ header {
     height: 80vh;
   }
 
-  .row-4-subheader > img {
+  .row-4-subheader>img {
     width: 20%;
   }
 }
 
-/*row 5 beginning*/
-.row-5 {
-  height: 80vh;
-  width: 100%;
+/* main container ends here */
+
+/* footer starts here */
+footer {
+  margin: 3em 0 0 0;
 }
 
-.row-5__header,
-.row-5__grid-container {
-  margin: 0 auto 0 auto;
-}
-
-.row-5__header {
-  height: 5%;
-}
-
-.row-5__grid-container {
-  /* change to fit content */
-  height: 85%;
-  display: grid;
-  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-}
-
-.row-5__grid-container>div {
-  border: 1px solid purple;
-  padding: 5px;
-}
-
-/* row 5 Media query */
-@media screen and (max-width: 1023px) {
-  .row:not(:first-child) {
-    width: 100%;
-    margin: 100px auto 0 auto;
-  }
-
-  .row-5 {
-    height: 95vh;
-  }
-
-  .row-5__header,
-  .row-5__grid-container {
-    width: 95%;
-    margin: 0 auto 0 auto;
-  }
-
-  .row-5__grid-container {
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .row-5 {
-    height: 100vh;
-  }
-
-  .row-5__header,
-  .row-5__grid-container {
-    width: 95%;
-    margin: 0 auto 0 auto;
-  }
-
-  .row-5__grid-container {
-    height: 95vh;
-    grid-template: repeat(8, 1fr) / 100%;
-  }
-}
-
-/*row 5 media query end */
 .footer__nav-1 {
   display: flex;
   flex-direction: column;
@@ -894,7 +835,6 @@ header {
 }
 
 .footer__nav-2 {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -917,6 +857,5 @@ header {
 @media screen and (max-width: 767px) {
   .footer__nav-2 {
     flex-direction: column;
-
   }
 }
