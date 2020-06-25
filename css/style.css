@@ -63,7 +63,7 @@ header {
   margin: 0 auto 0 10px;
 }
 
-.nav--black__left-container__item:nth-child(1){
+.nav--black__left-container__item:nth-child(1) {
   color: white;
 }
 
@@ -120,7 +120,7 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav--grey__right-container__img> img {
+.nav--grey__right-container__img>img {
   width: 20px;
   height: auto;
   margin: 0 10px 0 0;
@@ -204,7 +204,7 @@ header {
   .brand {
     display: block;
     height: 85px;
-    background: url("../media/tnw.svg") no-repeat center / 50%, linear-gradient(to bottom right, #c09,#f42) no-repeat center center / cover;
+    background: url("../media/tnw.svg") no-repeat center / 50%, linear-gradient(to bottom right, #c09, #f42) no-repeat center center / cover;
   }
 }
 
@@ -275,7 +275,7 @@ header {
 
 .row-1__element1 {
   grid-column: 1 / 2;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0)), linear-gradient(90deg, rgba(232, 235, 24, 0.603),  rgba(36, 44, 8, 0.13)) no-repeat 0 0 / contain,url(../media/Image/Row-1/cover-grad.png) no-repeat center center / cover, url("../media/Image/Row-1/e1.png") center / cover;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0)), linear-gradient(90deg, rgba(232, 235, 24, 0.603), rgba(36, 44, 8, 0.13)) no-repeat 0 0 / contain, url(../media/Image/Row-1/cover-grad.png) no-repeat center center / cover, url("../media/Image/Row-1/e1.png") center / cover;
   height: 100%;
   width: 100%;
   justify-content: space-between;
@@ -300,18 +300,21 @@ header {
   padding: 1em;
 }
 
-.element1-article > h5, .element2-2-article > h5 {
+.element1-article>h5,
+.element2-2-article>h5 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
 
-.element1-article > h2, .element2-2-article > h2{
+.element1-article>h2,
+.element2-2-article>h2 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 45px;
   color: white;
 }
 
-.element1-article ul, .element2-2-article ul {
+.element1-article ul,
+.element2-2-article ul {
   margin: 0;
   padding: 0;
   height: 20px;
@@ -319,7 +322,8 @@ header {
   text-align: left;
 }
 
-.element1-article li, .element2-2-article li {
+.element1-article li,
+.element2-2-article li {
   display: inline-block;
   color: rgb(189, 173, 173);
   margin: 0 0.5em 0 0;
@@ -337,7 +341,7 @@ header {
   grid-column: 2 / 3;
 }
 
-.row-1__element2 > div {
+.row-1__element2>div {
   width: 100%;
   height: 50%;
 }
@@ -346,10 +350,11 @@ header {
   position: relative;
   margin: 0 0 2.5px 0;
   padding: 1em;
-  background:linear-gradient(to top, rgba(0, 0, 0, 0.87),rgba(255, 255, 255, 0.027)), linear-gradient(to right, rgba(43, 40, 40, 0.295), rgba(0, 0, 0, 0.596)), url("../media/Image/Row-1/cc_series_empty-1200x628.jpg") no-repeat center / cover;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.87), rgba(255, 255, 255, 0.027)), linear-gradient(to right, rgba(43, 40, 40, 0.295), rgba(0, 0, 0, 0.596)), url("../media/Image/Row-1/cc_series_empty-1200x628.jpg") no-repeat center / cover;
 }
 
-.element2-1-header, .element2-2-article {
+.element2-1-header,
+.element2-2-article {
   position: absolute;
   bottom: 1em;
   z-index: 0;
@@ -362,10 +367,10 @@ header {
   position: relative;
   margin: 2.5px 0 0 0;
   padding: 1em;
-  background:linear-gradient(to top, black,rgba(107, 104, 104, 0.178)), url("../media/Image/Row-1/angryrobot-796x400.jpg") no-repeat center / cover;
+  background: linear-gradient(to top, black, rgba(107, 104, 104, 0.178)), url("../media/Image/Row-1/angryrobot-796x400.jpg") no-repeat center / cover;
 }
 
-.element2-2-article > h2 {
+.element2-2-article>h2 {
   font-size: 25px;
 }
 
@@ -386,11 +391,12 @@ header {
     display: none;
   }
 
-  .element1-article > h2 {
+  .element1-article>h2 {
     font-size: 30px;
   }
 
-  .element2-1-header, .element2-2-article > h2 {
+  .element2-1-header,
+  .element2-2-article>h2 {
     font-size: 20px;
   }
 }
@@ -410,7 +416,8 @@ header {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
-  .element1-article > h2 {
+
+  .element1-article>h2 {
     font-size: 20px;
     line-height: 1;
   }
@@ -419,7 +426,7 @@ header {
 /* Row 2 Rules start here */
 
 .row-2 {
-  height: 80vh;
+  height: auto;
   width: 100%;
 }
 
@@ -428,38 +435,45 @@ header {
   margin: 0 auto 0 auto;
 }
 
-.row-2__header {
+.row-2__header,
+.row-2__header * {
   height: 5%;
+  color: rgb(253, 17, 17);
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .row-2__grid-container {
-  /* change to fit content */
-  height: 85%;
+  height: auto;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
 }
 
-.row-2__grid-container>div {
-  border: 1px solid purple;
+.row-2__element {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: 3px dashed red;
   padding: 5px;
 }
-.row-2__element{
-  display:flex;
-  align-items: flex-start;
-  flex-direction:column;
+
+.row-2__element__image {
+  width: 100%;
+  height: 150px;
 }
-.row-2__element__image{
- width:100%;
- height:auto;
- align-self:center;
+
+.row-2__title {
+  height: auto;
+  font-weight: 700;
+  font-family: 'Archivo Black', sans-serif;
+  color: black;
 }
-.row2__title{
-  font-weight:700;
-  color:black;
-}
-.row2__paragraph{
-  color:grey;
+
+.row-2__link {
+  height: auto;
+  color: grey;
   text-decoration: none;
+
 }
 
 /* row 2 Media query */
@@ -470,7 +484,7 @@ header {
   }
 
   .row-2 {
-    height: 95vh;
+    height: auto;
   }
 
   .row-2__header,
@@ -482,11 +496,15 @@ header {
   .row-2__grid-container {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   }
+
+  .row-2__element__image {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .row-2 {
-    height: 100vh;
+    height: auto;
   }
 
   .row-2__header,
@@ -496,8 +514,25 @@ header {
   }
 
   .row-2__grid-container {
-    height: 95vh;
+    height: auto;
     grid-template: repeat(8, 1fr) / 100%;
+  }
+
+  .row-2__element {
+    flex-direction: row;
+  }
+
+  .row-2__element__image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .row-2-element-text {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+    font-size: 12px;
   }
 }
 
@@ -691,17 +726,21 @@ header {
   background-color: black;
   height: 12vh;
 }
-.footer__nav-2 *{
+
+.footer__nav-2 * {
   font-weight: 700;
   color: white;
   text-decoration: none;
 }
-.footer__nav-1__container-1, .footer__nav-1__container-2 {
+
+.footer__nav-1__container-1,
+.footer__nav-1__container-2 {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 767px){
-  .footer__nav-2{
+
+@media screen and (max-width: 767px) {
+  .footer__nav-2 {
     flex-direction: column;
 
   }
