@@ -166,6 +166,7 @@ header {
   line-height: 32px;
   width: 100%;
   text-align: left;
+  padding: 0 0 0 1rem;
 }
 
 .nav--yellow__paragraph {
@@ -248,6 +249,8 @@ header {
   margin: 100px auto 0 auto;
 }
 
+/* Container media queries */
+
 @media screen and (max-width: 1220px) {
   .row:not(:first-child) {
     max-width: 95%;
@@ -270,9 +273,36 @@ header {
 }
 
 .row-1__element1 {
-  background-color: red;
   grid-column: 1 / 2;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0)), linear-gradient(90deg, rgba(231, 235, 24, 0.658), rgba(36, 44, 8, 0.24)) no-repeat 0 0 / contain, url("../media/Image/Row-1/e1.png") center / cover;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
 }
+
+.element1-logo-date {
+  justify-content: space-between;
+  padding: 0.8em;
+}
+
+.element1-logo {
+  width: 50%;
+}
+
+.element1-date {
+  width: auto;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.element1-article {
+}
+
+.element1-article > h2 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
 
 .row-1__element2 {
   background-color: blue;
