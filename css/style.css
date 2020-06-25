@@ -454,7 +454,6 @@ header {
   display: flex;
   flex-direction: column;
   height: auto;
-  border: 3px dashed red;
   padding: 5px;
 }
 
