@@ -717,17 +717,17 @@ header {
 }
 
 .row-4-bg-2 {
-  background: linear-gradient(to top, black, white) no-repeat, url("../media/Image/row-4/r2.png") no-repeat center center / cover;
+  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.007)) no-repeat, url("../media/Image/row-4/r2.png") no-repeat center center / cover;
 
 }
 
 .row-4-bg-3 {
-  background: linear-gradient(to top, black, white) no-repeat, url("../media/Image/row-4/r3.png") no-repeat center center / cover;
+  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.007)) no-repeat, url("../media/Image/row-4/r3.png") no-repeat center center / cover;
 
 }
 
 .row-4-bg-4 {
-  background: linear-gradient(to top, black, white) no-repeat, url("../media/Image/row-4/r4.png") no-repeat center center / cover;
+  background: linear-gradient(to top, black, rgba(255, 255, 255, 0.007)) no-repeat, url("../media/Image/row-4/r4.jpg") no-repeat center center / cover;
 }
 
 .row-4__main-image {
@@ -758,7 +758,7 @@ header {
 }
 
 .row-4-subheader {
-  height: 14vh;
+  height: auto;
   padding: 0.2em 0 0 0.5em;
 }
 
@@ -772,6 +772,7 @@ header {
 
 .row-4-subheader > img {
   width: 25%;
+  height: 15vh;
 }
 
 .row-4-ul-li {
@@ -787,7 +788,6 @@ header {
 /* row 4 media queries */
 @media screen and (max-width: 1023px) {
   .row-4__element {
-    /* width: 50%; */
     height: auto;
     flex: 1 1 50%;
   }
@@ -803,10 +803,18 @@ header {
     height: auto;
   }
 
-  .row-4>div {
+  .row-4__element {
     width: 100%;
-    height: 120vh;
-    /* border: 4px dashed blue; */
+    height: auto;
+    flex: 1 1 100%;
+  }
+
+  .row-4__main-image {
+    height: 80vh;
+  }
+
+  .row-4-subheader > img {
+    width: 20%;
   }
 }
 
