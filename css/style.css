@@ -247,7 +247,7 @@ header {
 
 .row:not(:first-child) {
   max-width: 1192px;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 /* Container media queries */
@@ -255,7 +255,7 @@ header {
 @media screen and (max-width: 1220px) {
   .row:not(:first-child) {
     max-width: 95%;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
   }
 }
 
@@ -476,7 +476,7 @@ header {
 @media screen and (max-width: 1023px) {
   .row:not(:first-child) {
     width: 100%;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
   }
 
   .row-2 {
