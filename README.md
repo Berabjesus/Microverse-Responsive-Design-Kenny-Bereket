@@ -12,7 +12,7 @@ This project is made to test our understanding of CSS media queries and other co
 
 ## Live Demo
 
-[Live Demo Link](https://priceless-northcutt-769119.netlify.app/)
+[Live Demo Link](https://rawcdn.githack.com/KennyUTN/Microverse-Responsive-Design-Kenny-Bereket/cf21dbe815383645cea0762f9752cfc488349671/index.html)
 ## Authors
 
 👤 **Bereket Beshane**
