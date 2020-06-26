@@ -12,7 +12,7 @@ This project is made to test our understanding of CSS media queries and other co
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://priceless-northcutt-769119.netlify.app/)
 ## Authors
 
 👤 **Bereket Beshane**
