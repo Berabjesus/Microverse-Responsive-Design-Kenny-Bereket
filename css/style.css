@@ -693,7 +693,7 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 0.5em 0 0;
+  padding: 0 0.8em 0 0.8em;
 }
 
 .row-4__header {
@@ -735,6 +735,10 @@ header {
   margin: 0 0 0.5em 0;
 }
 
+.row-4-ul {
+  padding-left: 0.8em;
+}
+
 .row-4-ul-li a {
   text-decoration: none;
   color: #c09;
@@ -755,7 +759,7 @@ header {
 
 .row-4-subheader {
   height: auto;
-  padding: 0.2em 0 0 0.5em;
+  padding: 0.2em 0 0 0;
 }
 
 .row-4-subheader > article {
