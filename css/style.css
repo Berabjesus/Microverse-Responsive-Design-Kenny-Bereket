@@ -858,7 +858,6 @@ footer {
   width: 2.5rem;
   height: 2.5rem;
   margin: 0 0.7em;
-  background-color: #353131;
   border-radius: 50%;
   background: url("../media/icons2/1.png") no-repeat center / 1.8em, #353131;
 }
@@ -871,21 +870,17 @@ footer {
   background: url("../media/icons2/3.png") no-repeat center / 1.3em, #353131;
 }
 
-
 .footer__nav-1__social-icon:nth-child(4) {
   background: url("../media/icons2/4.png") no-repeat center / 1.1em, #353131;
 }
-
 
 .footer__nav-1__social-icon:nth-child(5) {
   background: url("../media/icons2/5.png") no-repeat center / 1.6em, #353131;
 }
 
-
 .footer__nav-1__social-icon:nth-child(6) {
   background: url("../media/icons2/6.png") no-repeat center / 1.6em, #353131;
 }
-
 
 .footer__nav-1__social-icon:nth-child(7) {
   background: url("../media/icons2/7.png") no-repeat center / 1.2em, #353131;
