@@ -1,9 +1,9 @@
-# Apple-Website
+# Responsive Design
 This project's purpose is to recreate the webpage https://thenextweb.com/ focusing on its responsive design and how it handles beign loaded on different screen sizes
 
 ![screenshot](media/screenshot.JPG)
 
-This project is made to test our understanding of CSS media queries and other tools that help to achieve responsiveness
+This project is made to test our understanding of CSS media queries and other concepts that help to achieve responsiveness
 
 ## Built With
 
